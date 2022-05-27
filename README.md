@@ -1,4 +1,5 @@
 # PITI: Pretraining is All You Need for Image-to-Image Translation 
+Official PyTorch implementation  
 > Pretraining is All You Need for Image-to-Image Translation    
 > 2022
  
@@ -20,10 +21,10 @@ Comparison with other methods.
 If you find this work useful for your research, please cite:
 
 ``` 
-@article{wang2022pretraining,
+@inproceedings{wang2022pretraining,
  title = {Pretraining is All You Need for Image-to-Image Translation},
   author = {Wang, Tengfei and Zhang, Ting and Zhang, Bo and Ouyang, Hao and Chen, Dong and Chen, Qifeng and Wen, Fang},
-  publisher = {arXiv},
+  booktitle = {arXiv},
   year = {2022},
 }
 ```
