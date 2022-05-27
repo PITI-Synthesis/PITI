@@ -3,7 +3,7 @@
 > 2022
  
 
-[paper]() | [project website](https://tengfei-wang.github.io/PITI/index.html) | [video]()
+[paper](https://arxiv.org/abs/2205.12952) | [project website](https://tengfei-wang.github.io/PITI/index.html) | [video]()
 
 ## Introduction
 We present a simple and universal framework that brings the power of the pretraining to various
@@ -14,3 +14,16 @@ Diverse samples synthesized by our approach.
 
 Comparison with other methods.   
 <img src="figure/1.jpg" height="690px"/>
+
+
+## Citation
+If you find this work useful for your research, please cite:
+
+``` 
+@article{wang2022pretraining,
+ title = {Pretraining is All You Need for Image-to-Image Translation},
+  author = {Wang, Tengfei and Zhang, Ting and Zhang, Bo and Ouyang, Hao and Chen, Dong and Chen, Qifeng and Wen, Fang},
+  publisher = {arXiv},
+  year = {2022},
+}
+```
