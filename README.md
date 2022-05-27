@@ -2,7 +2,7 @@
 Official PyTorch implementation  
 > Pretraining is All You Need for Image-to-Image Translation    
 > 2022
- 
+    
 
 [paper](https://arxiv.org/abs/2205.12952) | [project website](https://tengfei-wang.github.io/PITI/index.html) | [video]()
 
@@ -15,7 +15,6 @@ Diverse samples synthesized by our approach.
 
 Comparison with other methods.   
 <img src="figure/1.jpg" height="690px"/>
-
 
 ## Citation
 If you find this work useful for your research, please cite:
