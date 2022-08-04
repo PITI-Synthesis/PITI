@@ -4,11 +4,11 @@ Official PyTorch implementation
 > 2022
     
 
-[paper](https://arxiv.org/abs/2205.12952) | [project website](https://tengfei-wang.github.io/PITI/index.html) | [video]()
+[paper](https://arxiv.org/abs/2205.12952) | [project website](https://tengfei-wang.github.io/PITI/index.html) | [video]() | [online demo](https://huggingface.co/spaces/tfwang/PITI-Synthesis)
 
 ## Introduction
 We present a simple and universal framework that brings the power of the pretraining to various
-image-to-image translation tasks.  
+image-to-image translation tasks.  You may try our [online demo](https://huggingface.co/spaces/tfwang/PITI-Synthesis) if interested. 
 
 Diverse samples synthesized by our approach.   
 <img src="figure/diverse.jpg" height="380px"/>   
@@ -33,10 +33,10 @@ conda env create -f environment.yml
 Please download our pre-trained models for both ```Base``` model and ```Upsample``` model, and put them in ```./ckpt```.
 | Model | Task  | Dataset
 | :--- | :----------  | :----------
-|[Base-64x64](https://drive.google.com/file/d/1iqv0u0j5b4OH7t2fnnKkHSXfCQOY1kDX/view?usp=sharing)  | Mask-to-Image | Trained on COCO.
-|[Upsample-64-256](https://drive.google.com/file/d/1HmYS-mXz-oFRKkmBWTX9hVn_YbB8vkJz/view?usp=sharing) | Mask-to-Image | Trained on COCO.
-|[Base-64x64](https://drive.google.com/file/d/1QphMoGR9cojO_tc9khTXeLJMaJ4jQhI0/view?usp=sharing) | Sketch-to-Image | Trained on COCO.
-|[Upsample-64-256](https://drive.google.com/file/d/1ND3LF5OEkjZpaEbSBBqGxG2iwRVE67Za/view?usp=sharing)| Sketch-to-Image  | Trained on COCO.
+|[Base-64x64](https://hkustconnect-my.sharepoint.com/:u:/g/personal/tfwang_connect_ust_hk/EVslpwvzHJxFviyd3bw6KSEBWQ9B9Oqd5xUlemo4BNcHpQ?e=F5450q)  | Mask-to-Image | Trained on COCO.
+|[Upsample-64-256](https://hkustconnect-my.sharepoint.com/:u:/g/personal/tfwang_connect_ust_hk/ERPFM88nCR5Gna_i81cB_X4BgMyvkVE3uMX7R_w-LcSAEQ?e=EmL4fs) | Mask-to-Image | Trained on COCO.
+|[Base-64x64](https://hkustconnect-my.sharepoint.com/:u:/g/personal/tfwang_connect_ust_hk/EQsQdJGrxaJDsDYFycIRTO4BNHdEOqZmO_QHSZVV23n5-g?e=I7FSlU) | Sketch-to-Image | Trained on COCO.
+|[Upsample-64-256](https://hkustconnect-my.sharepoint.com/:u:/g/personal/tfwang_connect_ust_hk/Ec5DDBQkILpMm5lO0UeytzIBCteefJ_izY9izg7IEHAM8Q?e=6IL7Og)| Sketch-to-Image  | Trained on COCO.
 
 ### Prepare Images
 We put some example images in `./test_imgs`, and you can quickly try them.  
