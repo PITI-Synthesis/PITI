@@ -1,6 +1,7 @@
 # PITI: Pretraining is All You Need for Image-to-Image Translation 
 Official PyTorch implementation  
 > Pretraining is All You Need for Image-to-Image Translation    
+> [Tengfei Wang](https://tengfei-wang.github.io/), Ting Zhang, [Bo Zhang](https://bo-zhang.me/), [Hao Ouyang](https://ken-ouyang.github.io/), [Dong Chen](http://www.dongchen.pro/), [Qifeng Chen](https://cqf.io/), Fang Wen    
 > 2022
     
 
@@ -13,8 +14,6 @@ image-to-image translation tasks.  You may try our [online demo](https://hugging
 Diverse samples synthesized by our approach.   
 <img src="figure/diverse.jpg" height="380px"/>   
 
-Comparison with other methods.   
-<img src="figure/1.jpg" height="690px"/>
 
 ## Set up
 ### Installation
@@ -72,8 +71,8 @@ bash sample.sh
 
 ## Training
 ### Preparation
-1. Download and preprocess datasets.
-2. Download pretrained GLIDE models from [the webpage](https://github.com/openai/glide-text2im).
+1. Download and preprocess datasets. For COCO dataset, download the images and annotations from the [COCO webpage](https://cocodataset.org/#home). Run ```./preprocess/preprocess_mask.py``` or ```./preprocess/preprocess_sketch.py```    
+2. Download pretrained models by ```python preprocess/download.py ```.
 
 ### Start Training
 Taking mask-to-image synthesis as an example: (sketch-to-image is the same)
@@ -98,3 +97,6 @@ If you find this work useful for your research, please cite:
   year = {2022},
 }
 ```
+
+## Acknowledgement
+Thanks for [GLIDE](https://github.com/openai/glide-text2im) for sharing their code.
