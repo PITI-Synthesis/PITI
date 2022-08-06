@@ -4,17 +4,17 @@ Train a diffusion model on images.
 import gradio as gr
 import argparse
 from einops import rearrange
-from glide_text2im import dist_util, logger
+from pretrained_diffusion import dist_util, logger
 from torchvision.utils import make_grid
-from glide_text2im.script_util import (
+from pretrained_diffusion.script_util import (
     model_and_diffusion_defaults,
     create_model_and_diffusion,
     args_to_dict,
     add_dict_to_argparser,
 )
-from glide_text2im.image_datasets_sketch import get_tensor
-from glide_text2im.train_util import TrainLoop
-from glide_text2im.glide_util import sample 
+from pretrained_diffusion.image_datasets_sketch import get_tensor
+from pretrained_diffusion.train_util import TrainLoop
+from pretrained_diffusion.glide_util import sample 
 import torch
 import os
 import torch as th
