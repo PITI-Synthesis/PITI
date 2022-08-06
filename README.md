@@ -1,7 +1,7 @@
 # PITI: Pretraining is All You Need for Image-to-Image Translation 
 Official PyTorch implementation  
 > Pretraining is All You Need for Image-to-Image Translation    
-> [Tengfei Wang](https://tengfei-wang.github.io/), Ting Zhang, [Bo Zhang](https://bo-zhang.me/), [Hao Ouyang](https://ken-ouyang.github.io/), [Dong Chen](http://www.dongchen.pro/), [Qifeng Chen](https://cqf.io/), Fang Wen    
+> [Tengfei Wang](https://tengfei-wang.github.io/), [Ting Zhang](https://www.microsoft.com/en-us/research/people/tinzhan/), [Bo Zhang](https://bo-zhang.me/), [Hao Ouyang](https://ken-ouyang.github.io/), [Dong Chen](http://www.dongchen.pro/), [Qifeng Chen](https://cqf.io/), Fang Wen    
 > 2022
     
 
