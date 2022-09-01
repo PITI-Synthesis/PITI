@@ -42,7 +42,7 @@ We put some example images in `./test_imgs`, and you can quickly try them.
 #### COCO
 For COCO dataset, download the images and annotations from the [COCO webpage](https://cocodataset.org/#home).
 
-For mask-to-image synthesis, we use the semantic maps in RGB format as inputs. To obtain such semantic maps, run ```./preprocess/preprocess_mask.py```.  Note that we do not need instant masks like previous works.
+For mask-to-image synthesis, we use the semantic maps in RGB format as inputs. To obtain such semantic maps, run ```./preprocess/preprocess_mask.py``` (an example of the raw mask and the processed mask is given in ```preprocess/example```).  Note that we do not need instant masks like previous works. 
 
 For sketch-to-image synthesis, we use sketch maps extracted by HED as inputs. To obtain such sketch maps, run ```./preprocess/preprocess_sketch.py```.
 
