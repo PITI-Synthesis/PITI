@@ -37,6 +37,8 @@ Please download our pre-trained models for both ```Base``` model and ```Upsample
 |[Base-64x64](https://hkustconnect-my.sharepoint.com/:u:/g/personal/tfwang_connect_ust_hk/EQsQdJGrxaJDsDYFycIRTO4BNHdEOqZmO_QHSZVV23n5-g?e=I7FSlU) | Sketch-to-Image | Trained on COCO.
 |[Upsample-64-256](https://hkustconnect-my.sharepoint.com/:u:/g/personal/tfwang_connect_ust_hk/Ec5DDBQkILpMm5lO0UeytzIBCteefJ_izY9izg7IEHAM8Q?e=6IL7Og)| Sketch-to-Image  | Trained on COCO.
 
+If you fail to access to these links, you may alternatively find our pretrained models [here](https://hkustconnect-my.sharepoint.com/:f:/g/personal/tfwang_connect_ust_hk/Ej0KKEFuje5NnYwaR3wob7YBsca1mBoozuCwCrzc16ra_g?e=COucC2). 
+
 ### Prepare Images
 We put some example images in `./test_imgs`, and you can quickly try them.  
 #### COCO
