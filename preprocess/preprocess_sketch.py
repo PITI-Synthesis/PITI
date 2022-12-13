@@ -21,7 +21,7 @@ torch.backends.cudnn.enabled = True # make sure to use cudnn for computational p
 class Network(torch.nn.Module):
     def __init__(self):
         super().__init__()
-
+        arguments_strModel = 'bsds500'
         self.netVggOne = torch.nn.Sequential(
             torch.nn.Conv2d(in_channels=3, out_channels=64, kernel_size=3, stride=1, padding=1),
             torch.nn.ReLU(inplace=False),
