@@ -92,10 +92,10 @@ bash mask_finetune_upsample.sh
 If you find this work useful for your research, please cite:
 
 ``` 
-@inproceedings{wang2022pretraining,
+@article{wang2022pretraining,
  title = {Pretraining is All You Need for Image-to-Image Translation},
   author = {Wang, Tengfei and Zhang, Ting and Zhang, Bo and Ouyang, Hao and Chen, Dong and Chen, Qifeng and Wen, Fang},
-  booktitle = {arXiv},
+  journal={arXiv:2205.12952},
   year = {2022},
 }
 ```
